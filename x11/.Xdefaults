@@ -1,0 +1,108 @@
+xterm*faceName:           Hack Nerd Font Mono
+xterm*faceSize:           14
+xterm*dynamicColors:      true
+xterm*utf8:               2
+xterm*eightBitInput:      true
+xterm*saveLines:          512
+xterm*scrollTtyKeypress:  true
+xterm*scrollTtyOutput:    false
+xterm*scrollBar:          false
+xterm*rightScrollBar:     false
+xterm*jumpScroll:         true
+xterm*multiScroll:        true
+xterm*scrollBarBorder:    1
+xterm*toolBar:            false
+xterm*background:         #f3f3f3
+xterm*foreground:         Black
+xterm*termName:           xterm-256color
+xterm*charClass:          33:48,36-38:48,43-47:48,58:48,61:48,63-64:48,126:48
+
+!URxvt*geometry:           80x25
+URxvt*transparent:        true
+URxvt*shading:            23
+URxvt.borderless:         true
+URxvt.internalBorder:     2
+URxvt*background:         #030303
+URxvt*foreground:         White
+URxvt*scrollBar:          false
+URxvt*letterSpace:        0
+URxvt*lineSpace:          0
+URxvt.iso14755:           false
+!URxvt*scrollstyle:        plain
+!URxvt*secondaryWheel:     true
+
+URxvt.url-select.autocopy: true
+URxvt.url-select.underline:true
+URxvt.url-select.launcher: firefox
+URxvt.url-launcher:        firefox
+
+URxvt.perl-lib:           /usr/lib/share/urxvt-perls
+URxvt.perl-ext:           url-select,keyboard-select,clipboard
+URxvt*perl-ext-common:    fullscreen
+
+URxvt.keysym.M-Escape:    perl:keyboard-select:activate
+URxvt.keysym.M-s:         perl:keyboard-select:search
+URxvt.keysym.M-u:         perl:url-select:select_next
+URxvt.keysym.M-c:         perl:clipboard:copy
+URxvt.keysym.M-v:         perl:clipboard:paste
+URxvt.keysym.M-C-v:       perl:clipboard:paste_escaped
+URxvt.keysym.F11:         perl:fullscreen:switch
+URxvt.clipboard.copycmd:  xsel -ib
+URxvt.clipboard.pastecmd: xsel -ob
+
+URxvt.print-pipe:         "cat > /dev/null"
+
+URxvt.font:               xft:Hack Nerd Font Mono:style=Regular:size=12:antialias=true
+URxvt.boldFont:           xft:Hack Nerd Font Mono:size=12
+URxvt.italicFont:         xft:Hack Nerd Font Mono:size=12
+URxvt.boldItalicFont:     xft:Hack Nerd Font Mono:size=12
+URxvt.imFont:             xft:Hack Nerd Font Mono:size=12
+!URxvt.termName:           rxvt-unicode-256color
+URxvt.cutchars:		        `"'%&()*,;<>@[]{|}│║ ║║'"`
+
+Emacs.FontBackend:        xft
+Emacs.font:               Hack Nerd Font Mono
+Emacs*useXIM:             false
+
+Xft.dpi:                  96
+Xft.antialias:            1
+Xft.hinting:              1
+Xft.lcdfilter:            default
+Xft.hintstyle:            hintfull
+Xft.autohint:             0
+
+urxvt*color0:             #222222
+urxvt*color1:             #cc2222
+urxvt*color2:             #22dd22
+urxvt*color3:             #cccc33
+urxvt*color4:             #4444ef
+urxvt*color5:             #cc22cc
+urxvt*color6:             #22cccc
+urxvt*color7:             #cccccc
+urxvt*color8:             #888888
+urxvt*color9:             #ee4444
+urxvt*color10:            #44ef44
+urxvt*color11:            #efef44
+urxvt*color12:            #4444ef
+urxvt*color13:            #ef44ef
+urxvt*color14:            #44efef
+urxvt*color15:            #efefef
+
+! Normal
+! color0    black
+! color1    red
+! color2    green
+! color3    yellow
+! color4    blue
+! color5    purple
+! color6    cyan
+! color7    white
+! Light
+! color8    black
+! color9    red
+! color10    green
+! color11    yellow
+! color12    blue
+! color13    purple
+! color14    cyan
+! color15    white

@@ -1,0 +1,5 @@
+require("core.01-opts")
+require("core.02-plugins")
+require("core.03-keymaps")
+require("core.04-remaps")
+require("core.config")

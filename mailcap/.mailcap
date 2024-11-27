@@ -1,0 +1,6 @@
+text/html; w3m -dump -T text/html %s; copiousoutput
+application/vnd.ms-office; soffice %s
+application/vnd.openxmlformats-officedocument.wordprocessingml.document; soffice %s
+image/gif; firefox %s
+image/*; feh %s
+application/pdf; gv %s

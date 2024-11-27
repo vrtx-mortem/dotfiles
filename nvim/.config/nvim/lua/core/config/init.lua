@@ -1,0 +1,7 @@
+require('core.config.colorscheme')
+require('core.config.lualine')
+require('core.config.tree')
+require('core.config.treesitter')
+require('core.config.cmp')
+require('core.config.lsp')
+require('core.config.oil')
