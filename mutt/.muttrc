@@ -1,0 +1,35 @@
+set from      = 'nobody@lolwut.me'
+set realname  = 'nobody'
+
+set mbox_type=Maildir
+set spoolfile="~/.mailbox"
+set folder="~/.mailbox"
+set record="~/.mailbox/.Sent"
+set postponed="~/.mailbox/.Drafts"
+#set header_cache="~/.mutt/cache/headers"
+#set message_cachedir="~/.mutt/cache/bodies"
+#set certificate_file="~/.mutt/certificates"
+
+set mail_check = 120
+set sort=threads
+set sort_browser=reverse-date
+set sort_aux=reverse-last-date-received
+
+auto_view text/plain
+
+source ~/.gpg.rc
+#set pgp_use_gpg_agent = yes
+#set pgp_timeout = 3600
+#set pgp_autosign = no
+#set pgp_replysign = no
+#set pgp_replyencrypt = yes
+#
+#set crypt_autoencrypt = yes
+#set crypt_autopgp = yes
+#set crypt_autosign = no
+#set crypt_replysign = no
+#set crypt_replyencrypt = yes
+bind compose p pgp-menu
+bind index G imap-fetch-mail
+
+source ~/.theme.muttrc
