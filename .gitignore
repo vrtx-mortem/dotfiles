@@ -1,4 +1,11 @@
 nvim/.config/nvim/plugin/**
+!nvim/.config/nvim/plugin/.gitkeep
+
 ssh/**
+!ssh/.gitkeep
+
 tmux/.config/tmux/plugins/**
+!tmux/.config/tmux/plugins/.gitkeep
+
 zsh/.zsh/hist/**
+!zsh/.zsh/hist/.gitkeep
