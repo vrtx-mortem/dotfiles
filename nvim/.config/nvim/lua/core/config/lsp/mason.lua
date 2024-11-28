@@ -6,6 +6,7 @@ local servers = {
   'clangd',
   'ts_ls',
   'rust_analyzer',
+  'intelephense',
 }
 
 local settings = {
