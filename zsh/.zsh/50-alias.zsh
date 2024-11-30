@@ -41,8 +41,8 @@ alias мшь='nvim'
 alias dnsdump='~/src/dnsdump/dnsdump.py --format domain --type a --domain'
 alias git-tree='git log --graph --pretty=oneline --abbrev-commit'
 
-alias ua='setxkbmap -layout "ua,us" -option "grp:caps_toggle,grp_led:scroll"'
-alias ru='setxkbmap -layout "ru,us" -option "grp:caps_toggle,grp_led:scroll"'
+alias ua='setxkbmap -layout "us,ua" -option "grp:caps_toggle,grp_led:scroll"'
+alias ru='setxkbmap -layout "us,ru" -option "grp:caps_toggle,grp_led:scroll"'
 
 alias windows-vm='/usr/lib/virtualbox/VirtualBoxVM --comment winbox --startvm a46137d4-5d67-4dde-9877-1fc3fe37754a --no-startvm-errormsgbox'
 alias gdbserver='gdbserver --no-startup-with-shell'
